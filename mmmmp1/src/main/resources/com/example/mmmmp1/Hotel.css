@@ -1,0 +1,348 @@
+/* ===================================================
+   LuxeStay Hotel Management System — Premium CSS
+   Glassmorphism + Deep Space Theme
+   =================================================== */
+
+/* ---- ROOT ---- */
+.root {
+    -fx-font-family: "Segoe UI", "SF Pro Display", "Helvetica Neue", sans-serif;
+    -fx-font-size: 13px;
+    -fx-background-color: transparent;
+}
+
+/* ---- MAIN TAB PANE ---- */
+.main-tab-pane {
+    -fx-background-color: transparent;
+    -fx-tab-min-height: 44px;
+}
+
+.main-tab-pane .tab-header-area {
+    -fx-background-color: rgba(255, 255, 255, 0.04);
+    -fx-border-color: rgba(255, 255, 255, 0.08);
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0 24 0 24;
+}
+
+.main-tab-pane .tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.main-tab-pane .tab {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-width: 0;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+}
+
+.main-tab-pane .tab .tab-label {
+    -fx-text-fill: rgba(255, 255, 255, 0.45);
+    -fx-font-size: 13px;
+    -fx-font-weight: normal;
+    -fx-letter-spacing: 0.3;
+}
+
+.main-tab-pane .tab:selected {
+    -fx-background-color: transparent;
+    -fx-border-color: #c471ed;
+    -fx-border-width: 0 0 2 0;
+}
+
+.main-tab-pane .tab:selected .tab-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.main-tab-pane .tab:hover .tab-label {
+    -fx-text-fill: rgba(255, 255, 255, 0.8);
+}
+
+.main-tab-pane .tab-content-area {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+/* ---- GLASS TABLE ---- */
+.glass-table {
+    -fx-background-color: rgba(255, 255, 255, 0.05);
+    -fx-background-radius: 14;
+    -fx-border-color: rgba(255, 255, 255, 0.1);
+    -fx-border-radius: 14;
+    -fx-border-width: 1;
+    -fx-table-cell-border-color: rgba(255, 255, 255, 0.05);
+}
+
+.glass-table .column-header-background {
+    -fx-background-color: rgba(196, 113, 237, 0.15);
+    -fx-background-radius: 12 12 0 0;
+}
+
+.glass-table .column-header {
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(255, 255, 255, 0.06);
+    -fx-border-width: 0 1 0 0;
+    -fx-padding: 10 12 10 12;
+}
+
+.glass-table .column-header .label {
+    -fx-text-fill: rgba(196, 113, 237, 0.9);
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-letter-spacing: 0.5;
+}
+
+.glass-table .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(255, 255, 255, 0.04);
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0;
+}
+
+.glass-table .table-row-cell:odd {
+    -fx-background-color: rgba(255, 255, 255, 0.02);
+}
+
+.glass-table .table-row-cell:selected {
+    -fx-background-color: rgba(196, 113, 237, 0.18);
+}
+
+.glass-table .table-row-cell:hover {
+    -fx-background-color: rgba(18, 194, 233, 0.09);
+}
+
+.glass-table .table-cell {
+    -fx-padding: 10 12 10 12;
+    -fx-text-fill: rgba(255, 255, 255, 0.82);
+}
+
+.glass-table .filler {
+    -fx-background-color: rgba(196, 113, 237, 0.1);
+}
+
+.glass-table .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-pref-width: 8;
+}
+
+.glass-table .scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(196, 113, 237, 0.4);
+    -fx-background-radius: 4;
+}
+
+.glass-table .scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+}
+
+.glass-table .scroll-bar:vertical .increment-button,
+.glass-table .scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+    -fx-pref-height: 0;
+}
+
+/* ---- GLASS TEXT FIELD ---- */
+.glass-field {
+    -fx-background-color: rgba(255, 255, 255, 0.08);
+    -fx-background-radius: 10;
+    -fx-border-color: rgba(255, 255, 255, 0.15);
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: rgba(255, 255, 255, 0.35);
+    -fx-padding: 10 14 10 14;
+    -fx-font-size: 13px;
+}
+
+.glass-field:focused {
+    -fx-background-color: rgba(196, 113, 237, 0.12);
+    -fx-border-color: #c471ed;
+    -fx-effect: dropshadow(gaussian, rgba(196,113,237,0.35), 12, 0, 0, 0);
+}
+
+/* ---- GLASS COMBO BOX ---- */
+.glass-combo {
+    -fx-background-color: rgba(255, 255, 255, 0.08);
+    -fx-background-radius: 10;
+    -fx-border-color: rgba(255, 255, 255, 0.15);
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-padding: 4 10 4 10;
+}
+
+.glass-combo .list-cell {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-font-size: 13px;
+}
+
+.glass-combo:focused {
+    -fx-border-color: #c471ed;
+}
+
+.glass-combo .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.glass-combo .arrow {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+}
+
+.glass-combo .combo-box-popup .list-view {
+    -fx-background-color: rgba(28, 22, 60, 0.98);
+    -fx-background-radius: 12;
+    -fx-border-color: rgba(196, 113, 237, 0.4);
+    -fx-border-radius: 12;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.6), 20, 0, 0, 6);
+}
+
+.glass-combo .combo-box-popup .list-view .list-cell {
+    -fx-text-fill: rgba(255, 255, 255, 0.85);
+    -fx-background-color: transparent;
+    -fx-padding: 9 14 9 14;
+}
+
+.glass-combo .combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: rgba(196, 113, 237, 0.2);
+}
+
+.glass-combo .combo-box-popup .list-view .list-cell:selected {
+    -fx-background-color: rgba(196, 113, 237, 0.35);
+    -fx-text-fill: white;
+}
+
+/* ---- DATE PICKER ---- */
+.date-picker-popup {
+    -fx-background-color: rgba(28, 22, 60, 0.98);
+    -fx-border-color: rgba(196, 113, 237, 0.4);
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+}
+
+/* ---- PRIMARY BUTTON ---- */
+.btn-primary {
+    -fx-background-color: linear-gradient(to right, #c471ed, #12c2e9);
+    -fx-background-radius: 10;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 11 24 11 24;
+    -fx-cursor: hand;
+    -fx-border-width: 0;
+    -fx-effect: dropshadow(gaussian, rgba(196,113,237,0.5), 14, 0, 0, 3);
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to right, #d480f5, #20d3ff);
+    -fx-effect: dropshadow(gaussian, rgba(196,113,237,0.75), 20, 0, 0, 4);
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.btn-primary:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-effect: none;
+}
+
+/* ---- DANGER BUTTON ---- */
+.btn-danger {
+    -fx-background-color: linear-gradient(to right, #f64f59, #c471ed);
+    -fx-background-radius: 10;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 11 24 11 24;
+    -fx-cursor: hand;
+    -fx-border-width: 0;
+    -fx-effect: dropshadow(gaussian, rgba(246,79,89,0.5), 14, 0, 0, 3);
+}
+
+.btn-danger:hover {
+    -fx-background-color: linear-gradient(to right, #ff636e, #d480f5);
+    -fx-effect: dropshadow(gaussian, rgba(246,79,89,0.75), 20, 0, 0, 4);
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+/* ---- SEPARATOR ---- */
+.separator .line {
+    -fx-border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ---- CHECK BOX ---- */
+.check-box .box {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 4;
+    -fx-border-color: rgba(255, 255, 255, 0.25);
+    -fx-border-radius: 4;
+    -fx-border-width: 1;
+}
+
+.check-box:selected .box {
+    -fx-background-color: linear-gradient(to bottom right, #c471ed, #12c2e9);
+    -fx-border-color: transparent;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+/* ---- SCROLL PANE ---- */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-border-width: 0;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(196, 113, 237, 0.35);
+    -fx-background-radius: 4;
+}
+
+.scroll-bar:vertical .track,
+.scroll-bar:vertical .track-background {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+    -fx-pref-height: 0;
+}
+
+/* ---- TOOLTIP ---- */
+.tooltip {
+    -fx-background-color: rgba(28, 22, 60, 0.95);
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-background-radius: 8;
+    -fx-border-color: rgba(196, 113, 237, 0.4);
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+}
+
+/* ---- LABEL (general) ---- */
+.label {
+    -fx-text-fill: rgba(255, 255, 255, 0.85);
+}
+
+/* ---- CONTEXT MENU ---- */
+.context-menu {
+    -fx-background-color: rgba(28, 22, 60, 0.98);
+    -fx-background-radius: 10;
+    -fx-border-color: rgba(196, 113, 237, 0.3);
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+}
+
+.menu-item:focused {
+    -fx-background-color: rgba(196, 113, 237, 0.2);
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+}
